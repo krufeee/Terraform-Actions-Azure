@@ -82,7 +82,7 @@ jobs:
       run: terraform init
       
     - name: Login via Azure CLI
-      uses: azure.login@v1
+      uses: azure/login@v1
       with:
         creds: ${{ secret.AZURE_CREDENTIALS }}
 
