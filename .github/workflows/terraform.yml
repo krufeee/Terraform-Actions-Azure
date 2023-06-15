@@ -87,7 +87,7 @@ jobs:
       with:
         creds: ${{ secret.AZURE_CREDENTIONALS }}
 
-    # Checks that all Terraform configuration files adhere to a canonical format
+    # Checks that all Terraforconfiguration files adhere to a canonical format
     - name: Terraform Apply
       run: terraform apply -auto-approve
 
